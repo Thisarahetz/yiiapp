@@ -1,0 +1,1158 @@
+2024/04/13 15:21:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('index')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/index
+HTTP_REFERER=http://dev.yiiapp.com/index.php/site/login
+---
+2024/04/13 15:31:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:31:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:31:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:31:55 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Dashboard')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Dashboard
+---
+2024/04/13 15:32:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/home". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/home')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/home
+---
+2024/04/13 15:34:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/home". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/home')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/home
+---
+2024/04/13 15:34:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/home". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/home')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/home
+---
+2024/04/13 15:34:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:34:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:35:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:35:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:35:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:35:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:35:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord
+---
+2024/04/13 15:35:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/home". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/home')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/home
+---
+2024/04/13 15:35:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/homes". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/homes')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/homes
+---
+2024/04/13 15:35:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/home". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/home')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/home
+---
+2024/04/13 15:36:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/home". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/home')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/home
+---
+2024/04/13 15:38:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "dashbord/home". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashbord/home')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dashbord/home
+---
+2024/04/13 15:43:43 [error] [exception.ParseError] ParseError: syntax error, unexpected token "<", expecting end of file in D:\upwork\Task-1\yiiapp\protected\views\dashboard\view.php:2
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\upwork\\Task-...', NULL, true)
+#1 D:\upwork\Task-1\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\upwork\\Task-...', NULL, true)
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('view', NULL, true)
+#3 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(9): CController->render('view')
+#4 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionHome()
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('home')
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/home')
+#10 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/dashboard/home
+---
+2024/04/13 15:46:13 [error] [exception.Error] Error: Undefined constant "d" in D:\upwork\Task-1\yiiapp\protected\views\dashboard\view.php:1
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require()
+#1 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\upwork\\Task-...', NULL, true)
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\upwork\\Task-...', NULL, true)
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('view', NULL, true)
+#4 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(9): CController->render('view')
+#5 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionHome()
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('home')
+#10 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/home')
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/dashboard/home
+---
+2024/04/13 16:19:43 [error] [php] Undefined variable $events (D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php:24)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#1 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#4 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#5 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (24)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:19:53 [error] [php] Attempt to read property "author" on string (D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php:3)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require()
+#1 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(872): DashboardController->renderFile()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(785): DashboardController->renderPartial()
+#4 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(24): DashboardController->render()
+#5 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#10 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php (3)
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (24)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:20:38 [error] [exception.ParseError] ParseError: syntax error, unexpected token "}", expecting "," or ";" in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php:26
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('events/')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/event...')
+#2 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/dashboard/events
+---
+2024/04/13 16:20:55 [error] [exception.Error] Error: Object of class Event could not be converted to string in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php:24
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#1 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('events')
+#5 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/event...')
+#6 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/dashboard/events
+---
+2024/04/13 16:21:25 [error] [php] Attempt to read property "name" on null (D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php:24)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#1 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#4 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#5 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (24)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:21:26 [error] [php] Attempt to read property "name" on null (D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php:24)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#1 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#4 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#5 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (24)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:21:36 [error] [exception.Error] Error: Object of class Event could not be converted to string in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php:24
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#1 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('events')
+#5 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/event...')
+#6 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/dashboard/events
+---
+2024/04/13 16:25:26 [error] [php] Attempt to read property "author" on string (D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php:3)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require()
+#1 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(872): DashboardController->renderFile()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(785): DashboardController->renderPartial()
+#4 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(26): DashboardController->render()
+#5 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#10 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php (3)
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (26)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:25:48 [error] [php] Attempt to read property "name" on string (D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php:3)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require()
+#1 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(872): DashboardController->renderFile()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(785): DashboardController->renderPartial()
+#4 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(26): DashboardController->render()
+#5 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#10 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php (3)
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (26)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:26:25 [error] [php] Undefined variable $model (D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php:2)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require()
+#1 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(872): DashboardController->renderFile()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(785): DashboardController->renderPartial()
+#4 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(26): DashboardController->render()
+#5 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#10 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php (2)
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (26)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:26:38 [error] [php] Attempt to read property "name" on string (D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php:3)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require()
+#1 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(872): DashboardController->renderFile()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(785): DashboardController->renderPartial()
+#4 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(26): DashboardController->render()
+#5 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#10 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php (3)
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (26)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:26:39 [error] [php] Attempt to read property "name" on string (D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php:3)
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require()
+#1 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): DashboardController->renderInternal()
+#2 D:\upwork\Task-1\yii\framework\web\CController.php(872): DashboardController->renderFile()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(785): DashboardController->renderPartial()
+#4 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(26): DashboardController->render()
+#5 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#6 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\upwork\Task-1\yii\framework\web\CController.php(286): DashboardController->runAction()
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(265): DashboardController->runActionWithFilters()
+#9 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): DashboardController->run()
+#10 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\upwork\Task-1\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/dashboard/events
+in D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php (3)
+in D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php (26)
+in D:\upwork\Task-1\yiiapp\index.php (13)
+2024/04/13 16:27:58 [error] [exception.CException] CException: Property "Event.description" is not defined. in D:\upwork\Task-1\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('description')
+#1 D:\upwork\Task-1\yiiapp\protected\views\dashboard\events.php(7): CActiveRecord->__get('description')
+#2 D:\upwork\Task-1\yii\framework\web\CBaseController.php(126): require('D:\\upwork\\Task-...')
+#3 D:\upwork\Task-1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\upwork\\Task-...', Array, true)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\upwork\\Task-...', Array, true)
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('events', Array, true)
+#6 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(26): CController->render('events', Array)
+#7 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#8 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('events')
+#12 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/event...')
+#13 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/dashboard/events
+---
+2024/04/13 16:44:14 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 16:45:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 16:47:56 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 16:51:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 16:53:43 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 18:56:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://127.0.0.1/
+---
+2024/04/13 16:57:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 16:57:24 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 16:59:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 17:01:33 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 17:01:51 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 17:04:25 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 17:04:31 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 17:09:31 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 17:09:32 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 19:12:35 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'testdriddve' in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(459): CModule->getComponent('db')
+#4 D:\upwork\Task-1\yii\framework\db\ar\CActiveRecord.php(639): CApplication->getDb()
+#5 D:\upwork\Task-1\yii\framework\db\ar\CActiveRecord.php(1436): CActiveRecord->getDbConnection()
+#6 D:\upwork\Task-1\yii\framework\db\ar\CActiveRecord.php(1492): CActiveRecord->getTableAlias(true)
+#7 D:\upwork\Task-1\yiiapp\protected\controllers\DashboardController.php(23): CActiveRecord->findByPk(1)
+#8 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): DashboardController->actionEvents()
+#9 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('events')
+#13 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/event...')
+#14 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/dashboard/events
+---
+2024/04/13 17:21:40 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 17:29:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 19:36:42 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 19:37:06 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 21:39:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/
+---
+2024/04/13 21:40:03 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "event". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('event')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('event')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/event')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dashboard/event
+---
+2024/04/13 19:58:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 19:58:20 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 19:59:14 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 20:03:14 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: could not find driver in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/13 20:13:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdrive.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2024/04/14 01:54:09 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in D:\upwork\Task-1\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\upwork\Task-1\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive()
+#2 D:\upwork\Task-1\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(472): CModule->getComponent()
+#4 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(481): MigrateCommand->getDbConnection()
+#5 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(512): MigrateCommand->getMigrationHistory()
+#6 D:\upwork\Task-1\yii\framework\cli\commands\MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp()
+#8 D:\upwork\Task-1\yii\framework\console\CConsoleCommand.php(177): ReflectionMethod->invokeArgs()
+#9 D:\upwork\Task-1\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run()
+#10 D:\upwork\Task-1\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#12 D:\upwork\Task-1\yii\framework\yiic.php(33): CApplication->run()
+#13 D:\upwork\Task-1\yiiapp\protected\yiic.php(7): require_once('...')
+#14 D:\upwork\Task-1\yiiapp\protected\yiic(4): require_once('...')
+#15 {main}
+---
+2024/04/14 03:57:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://dev.yiiapp.com/dashboard/home
+---
+2024/04/14 03:59:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "event". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event
+---
+2024/04/14 03:59:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "event/create". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event/create')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event/create
+---
+2024/04/14 04:00:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Event/create". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:00:17 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(9): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:00:22 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Event
+---
+2024/04/14 04:00:24 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Event
+---
+2024/04/14 04:00:33 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event
+---
+2024/04/14 04:00:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/event
+---
+2024/04/14 04:00:48 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(9): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/event/create
+---
+2024/04/14 04:01:26 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(9): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create/Cr...')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create/Create
+---
+2024/04/14 04:02:10 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(14): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:02:14 [error] [exception.CException] CException: EventController cannot find the requested view "index". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(8): CController->render('index', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionIndex()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event
+---
+2024/04/14 04:03:09 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(10): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:06:10 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', NULL, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(7): CController->render('create')
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:06:23 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(8): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:06:24 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(8): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:08:24 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(8): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:08:26 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(8): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
+2024/04/14 04:08:31 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "createa". in D:\upwork\Task-1\yii\framework\web\CController.php:486
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(270): CController->missingAction('createa')
+#1 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('createa')
+#2 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/createa')
+#3 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Event/createa
+---
+2024/04/14 04:08:38 [error] [exception.CException] CException: EventController cannot find the requested view "create". in D:\upwork\Task-1\yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CController.php(785): CController->renderPartial('create', Array, true)
+#1 D:\upwork\Task-1\yiiapp\protected\controllers\EventController.php(8): CController->render('create', Array)
+#2 D:\upwork\Task-1\yii\framework\web\actions\CInlineAction.php(49): EventController->actionCreate()
+#3 D:\upwork\Task-1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\upwork\Task-1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\upwork\Task-1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#7 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Event/create')
+#8 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Event/create
+---
