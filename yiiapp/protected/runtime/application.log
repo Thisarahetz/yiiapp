@@ -1156,3 +1156,12 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/Event/create
 ---
+2024/04/15 07:48:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\upwork\Task-1\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\upwork\Task-1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\upwork\Task-1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\upwork\Task-1\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/
+---
