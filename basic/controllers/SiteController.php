@@ -123,7 +123,12 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
-        return $this->render('about');
+        $email = "admin@support.com";
+        $phone = "+78007898100";
+        return $this->render('about',[
+            'email' => $email,
+            'phone' => $phone
+   ]);
     }
 
 
