@@ -9,9 +9,12 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use yii\web\View;
+
 
 class SiteController extends Controller
 {
+    public $layout = "newlayout";
     /**
      * {@inheritdoc}
      */
@@ -123,12 +126,16 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
-        $email = "admin@support.com";
-        $phone = "+78007898100";
-        return $this->render('about',[
-            'email' => $email,
-            'phone' => $phone
-   ]);
+//         $email = "admin@support.com";
+//         $phone = "+78007898100";
+//         return $this->render('about',[
+//             'email' => $email,
+//             'phone' => $phone
+//    ]);
+        \Yii::$app->view->on(View::EVENT_BEGIN_BODY, function () {
+            echo date('m.d.Y H:i:s');
+        });
+        return $this->render('about');
     }
 
 
