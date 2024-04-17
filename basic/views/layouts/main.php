@@ -10,6 +10,7 @@ use yii\bootstrap5\Html;
 use yii\bootstrap5\Nav;
 use yii\bootstrap5\NavBar;
 
+\app\assets\DemoAsset::register($this);
 AppAsset::register($this);
 
 $this->registerCsrfMetaTags();

@@ -14,7 +14,7 @@ use yii\web\View;
 
 class SiteController extends Controller
 {
-    public $layout = "newlayout";
+    // public $layout = "newlayout";
     /**
      * {@inheritdoc}
      */
