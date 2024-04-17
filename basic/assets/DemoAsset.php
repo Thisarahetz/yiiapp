@@ -5,7 +5,10 @@
    class DemoAsset extends AssetBundle {
       public $basePath = '@webroot';
       public $baseUrl = '@web';
-      public $js = ['js/demo.js'];
+      public $js = [
+         'js/demo.js',
+         'js/greeting.ts'
+      ];
       public  $jsOptions = ['position' => View::POS_HEAD];
    }
 ?>
