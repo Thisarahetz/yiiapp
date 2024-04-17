@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57d779f59da665ae7f7644effae3159e",
+    "content-hash": "c9a462671b4afd535abf1213c83c6d58",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -1491,6 +1491,39 @@
                 }
             ],
             "time": "2024-04-05T09:39:30+00:00"
+        },
+        {
+            "name": "thisarahetz/hello-world-test99",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Thisarahetz/HelloWorld.git",
+                "reference": "b6d50e2038459ebfda8f693f74555789b4158c6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Thisarahetz/HelloWorld/zipball/b6d50e2038459ebfda8f693f74555789b4158c6b",
+                "reference": "b6d50e2038459ebfda8f693f74555789b4158c6b",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HelloWorld": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "thisarahetz"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Thisarahetz/HelloWorld/issues",
+                "source": "https://github.com/Thisarahetz/HelloWorld/tree/main"
+            },
+            "time": "2024-04-17T16:33:13+00:00"
         },
         {
             "name": "twbs/bootstrap",

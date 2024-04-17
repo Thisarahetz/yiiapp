@@ -14,6 +14,7 @@
    <p>
       This is the About page. You may modify the following file to customize its content:
    </p>
+   <h1><?= HelloWorld\SayHello::world();  ?></h1>
    <?php
       echo DateTimePicker::widget([
          'name' => 'dp_1',
