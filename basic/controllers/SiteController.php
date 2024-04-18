@@ -209,6 +209,13 @@ class SiteController extends Controller
         }
 
         public function actionTestResponse() {
-            Yii::$app->response->headers->add('Pragma', 'no-cache');
+            \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+            return [
+               'id' => '1',
+               'name' => 'Ivan',
+               'age' => 24,
+               'country' => 'Poland',
+               'city' => 'Warsaw'
+            ];
          }
 }
