@@ -63,7 +63,8 @@ $config = [
         'class' => 'app\modules\hello\Hello', 
         ],
     ],
-    // 'defaultRoute' => 'example',
+    'defaultRoute' => 'site/contact',
+    // 'catchAll' => ['site/maintenance'],
     'params' => $params,
 ];
 

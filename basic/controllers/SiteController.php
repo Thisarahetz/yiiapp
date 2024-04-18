@@ -211,4 +211,13 @@ class SiteController extends Controller
         public function actionTestResponse() {
             return $this->redirect('http://www.tutorialspoint.com/');
          }
+
+
+         public function actionMaintenance() {
+            echo "<h1>Maintenance</h1>";
+         }
+
+         public function actionRoutes() {
+            return $this->render('routes');
+         }
 }
