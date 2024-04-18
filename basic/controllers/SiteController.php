@@ -209,7 +209,6 @@ class SiteController extends Controller
         }
 
         public function actionTestResponse() {
-
-            Yii::$app->response->statusCode = 201;
-        }
+            throw new \yii\web\GoneHttpException;
+         }
 }
