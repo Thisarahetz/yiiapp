@@ -209,6 +209,6 @@ class SiteController extends Controller
         }
 
         public function actionTestResponse() {
-            throw new \yii\web\GoneHttpException;
+            Yii::$app->response->headers->add('Pragma', 'no-cache');
          }
 }
