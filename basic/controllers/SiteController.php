@@ -177,7 +177,22 @@ class SiteController extends Controller
     //widgets
     public function actionTestWidget() { 
         return $this->render('testwidget'); 
-
-
     }
+
+    //request
+    public function actionTestGet() {
+        $req = Yii::$app->request;
+        if ($req->isAjax) {
+           echo "the request is AJAX";
+        }
+        if ($req->isGet) {
+           echo "the request is GET";
+        }
+        if ($req->isPost) {
+           echo "the request is POST";
+        }
+        if ($req->isPut) {
+           echo "the request is PUT";
+        }
+     }
 }
