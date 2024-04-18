@@ -11,7 +11,6 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use yii\web\View;
 
-
 class SiteController extends Controller
 {
     // public $layout = "newlayout";
@@ -181,31 +180,36 @@ class SiteController extends Controller
 
     //request
     public function actionTestGet() {
-       //the URL without the host
-   var_dump(Yii::$app->request->url);
-   
-   //the whole URL including the host path
-   var_dump(Yii::$app->request->absoluteUrl);
-   
-   //the host of the URL
-   var_dump(Yii::$app->request->hostInfo);
-   
-   //the part after the entry script and before the question mark
-   var_dump(Yii::$app->request->pathInfo);
-   
-   //the part after the question mark
-   var_dump(Yii::$app->request->queryString);
-   
-   //the part after the host and before the entry script
-   var_dump(Yii::$app->request->baseUrl);
-   
-   //the URL without path info and query string
-   var_dump(Yii::$app->request->scriptUrl);
-   
-   //the host name in the URL
-   var_dump(Yii::$app->request->serverName);
-   
-   //the port used by the web server
-   var_dump(Yii::$app->request->serverPort);
-     }
+            //the URL without the host
+            var_dump(Yii::$app->request->url);
+            
+            //the whole URL including the host path
+            var_dump(Yii::$app->request->absoluteUrl);
+            
+            //the host of the URL
+            var_dump(Yii::$app->request->hostInfo);
+            
+            //the part after the entry script and before the question mark
+            var_dump(Yii::$app->request->pathInfo);
+            
+            //the part after the question mark
+            var_dump(Yii::$app->request->queryString);
+            
+            //the part after the host and before the entry script
+            var_dump(Yii::$app->request->baseUrl);
+            
+            //the URL without path info and query string
+            var_dump(Yii::$app->request->scriptUrl);
+            
+            //the host name in the URL
+            var_dump(Yii::$app->request->serverName);
+            
+            //the port used by the web server
+            var_dump(Yii::$app->request->serverPort);
+        }
+
+        public function actionTestResponse() {
+
+            Yii::$app->response->statusCode = 201;
+        }
 }
