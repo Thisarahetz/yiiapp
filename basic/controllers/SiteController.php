@@ -208,14 +208,23 @@ class SiteController extends Controller
             var_dump(Yii::$app->request->serverPort);
         }
 
-        public function actionTestResponse() {
-            \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
-            return [
-               'id' => '1',
-               'name' => 'Ivan',
-               'age' => 24,
-               'country' => 'Poland',
-               'city' => 'Warsaw'
-            ];
-         }
+       public function actionTestResponse() {
+   \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+   return [
+    [
+        'id' => '1',
+        'name' => 'Ivan',
+        'age' => 24,
+        'country' => 'Poland',
+        'city' => 'Warsaw'
+    ],
+    [
+        'id' => '2',
+        'name' => 'John',
+        'age' => 30,
+        'country' => 'USA',
+        'city' => 'New York'
+    ]
+   ];
+}
 }
