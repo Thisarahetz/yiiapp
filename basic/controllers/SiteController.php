@@ -181,18 +181,31 @@ class SiteController extends Controller
 
     //request
     public function actionTestGet() {
-        $req = Yii::$app->request;
-        if ($req->isAjax) {
-           echo "the request is AJAX";
-        }
-        if ($req->isGet) {
-           echo "the request is GET";
-        }
-        if ($req->isPost) {
-           echo "the request is POST";
-        }
-        if ($req->isPut) {
-           echo "the request is PUT";
-        }
+       //the URL without the host
+   var_dump(Yii::$app->request->url);
+   
+   //the whole URL including the host path
+   var_dump(Yii::$app->request->absoluteUrl);
+   
+   //the host of the URL
+   var_dump(Yii::$app->request->hostInfo);
+   
+   //the part after the entry script and before the question mark
+   var_dump(Yii::$app->request->pathInfo);
+   
+   //the part after the question mark
+   var_dump(Yii::$app->request->queryString);
+   
+   //the part after the host and before the entry script
+   var_dump(Yii::$app->request->baseUrl);
+   
+   //the URL without path info and query string
+   var_dump(Yii::$app->request->scriptUrl);
+   
+   //the host name in the URL
+   var_dump(Yii::$app->request->serverName);
+   
+   //the port used by the web server
+   var_dump(Yii::$app->request->serverPort);
      }
 }
