@@ -3,41 +3,35 @@
 ?>
 
 <h4>
-   <b>Url::to(['post/index']):</b>
+   <b>Url::home():</b>
    <?php
-      // creates a URL to a route: /index.php?r = post/index
-      echo Url::to(['post/index']);
+      // home page URL: /index.php?r=site/index
+      echo Url::home();
    ?>
 </h4>
-
+ 
 <h4>
-   <b>Url::to(['post/view', 'id' => 100]):</b>
+   <b>Url::base():</b>
    <?php
-      // creates a URL to a route with parameters: /index.php?r = post/view&id=100
-      echo Url::to(['post/view', 'id' => 100]);
+      // the base URL, useful if the application is deployed in a sub-folder of the Web root
+      echo Url::base();
    ?>
 </h4>
-
+ 
 <h4>
-   <b>Url::to(['post/view', 'id' => 100, '#' => 'content']):</b>
+   <b>Url::canonical():</b>
    <?php
-      // creates an anchored URL: /index.php?r = post/view&id=100#content
-      echo Url::to(['post/view', 'id' => 100, '#' => 'content']);
+      // the canonical URL of the currently requested URL
+      // see https://en.wikipedia.org/wiki/Canonical_link_element
+      echo Url::canonical();
    ?>
 </h4>
-
+ 
 <h4>
-   <b>Url::to(['post/index'], true):</b>
+   <b>Url::previous():</b>
    <?php
-      // creates an absolute URL: http://www.example.com/index.php?r=post/index
-      echo Url::to(['post/index'], true);
-   ?>
-</h4>
-
-<h4>
-   <b>Url::to(['post/index'], 'https'):</b>
-   <?php
-      // creates an absolute URL using the https scheme: https://www.example.com/index.php?r=post/index
-      echo Url::to(['post/index'], 'https');
+      // remember the currently requested URL and retrieve it back in later requests
+      Url::remember();
+      echo Url::previous();
    ?>
 </h4>
