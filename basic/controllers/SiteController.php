@@ -518,5 +518,83 @@ class SiteController extends Controller
         $obj = $container->get("\app\components\MyInterface");
         $obj->test(); // print "Second class"
     }
+
+
+    public function actionTestDb(){
+        // return a set of rows. each row is an associative array of column names and values.
+        // an empty array is returned if the query returned no results
+        $users = Yii::$app->db->createCommand('SELECT * FROM user LIMIT 5')
+            ->queryAll();
+        var_dump($users);
+        echo "<br>";
+        // return a single row (the first row)
+        // false is returned if the query has no result
+        $user = Yii::$app->db->createCommand('SELECT * FROM user WHERE id=1')
+            ->queryOne();
+        var_dump($user);
+        echo "<br>";
+        // return a single column (the first column)
+        // an empty array is returned if the query returned no results
+        $userName = Yii::$app->db->createCommand('SELECT name FROM user')
+            ->queryColumn();
+        var_dump($userName);
+        echo "<br>";
+        // return a scalar value
+        // false is returned if the query has no result
+        $count = Yii::$app->db->createCommand('SELECT COUNT(*) FROM user')
+            ->queryScalar();
+        var_dump($count);
+        }
+        
+        public function actionTestDb1() {
+            $firstUser = Yii::$app->db->createCommand('SELECT * FROM user WHERE id = :id')
+                ->bindValue(':id', 1)
+                ->queryOne();
+            var_dump($firstUser);
+            $params = [':id' => 2, ':name' => 'User2'];
+            $secondUser = Yii::$app->db->createCommand('SELECT * FROM user WHERE
+                id = :id AND name = :name')
+                ->bindValues($params)
+                ->queryOne();
+            var_dump($secondUser);
+               //another approach
+            $params = [':id' => 3, ':name' => 'User3'];
+            $thirdUser = Yii::$app->db->createCommand('SELECT * FROM user WHERE
+                id = :id AND name = :name', $params)
+                ->queryOne();
+            var_dump($thirdUser);
+        }
+
+
+
+            public function actionTestDb3(){
+               // INSERT (table name, column values)
+            Yii::$app->db->createCommand()->insert('user', [
+                'name' => 'My New User',
+                'email' => 'mynewuser@gmail.com',
+            ])->execute();
+               $user = Yii::$app->db->createCommand('SELECT * FROM user WHERE name = :name')
+                ->bindValue(':name', 'My New User')
+            ->queryOne();
+            var_dump($user);
+               // UPDATE (table name, column values, condition)
+            Yii::$app->db->createCommand()->update('user', ['name' => 'My New User
+                Updated'], 'name = "My New User"')->execute();
+               $user = Yii::$app->db->createCommand('SELECT * FROM user WHERE name = :name')
+                ->bindValue(':name', 'My New User Updated')
+                ->queryOne();
+            var_dump($user);
+               // DELETE (table name, condition)
+            Yii::$app->db->createCommand()->delete('user', 'name = "My New User
+                Updated"')->execute();
+               $user = Yii::$app->db->createCommand('SELECT * FROM user WHERE name = :name')
+                ->bindValue(':name', 'My New User Updated')
+                ->queryOne();
+            var_dump($user);
+            }
+        
+
+        
+
         
 }
