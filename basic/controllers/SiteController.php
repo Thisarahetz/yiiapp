@@ -463,4 +463,13 @@ class SiteController extends Controller
     $users = $provider->getModels();
     var_dump($users);
     }
+
+
+    ///widgets
+    public function actionDataWidget() {
+        $model = User::find()->one();
+        return $this->render('datawidget', [
+            'model' => $model
+        ]);
+    }
 }
