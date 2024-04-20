@@ -287,6 +287,15 @@ class SiteController extends Controller
                 'lifetime' => 7200,
                 ];
                 var_dump($session['captcha']);
-         }
+        }
+
+        //flash
+        public function actionShowFlash() {
+            $session = Yii::$app->session;
+            // set a flash message named as "greeting"
+            $session->setFlash('greeting', 'Hello user!');
+            return $this->render('showflash');
+        }
+        
 
 }
