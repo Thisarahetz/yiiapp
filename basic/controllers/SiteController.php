@@ -566,7 +566,7 @@ class SiteController extends Controller
         }
 
 
-
+            //transaction
             public function actionTestDb3(){
                // INSERT (table name, column values)
             Yii::$app->db->createCommand()->insert('user', [
@@ -592,7 +592,8 @@ class SiteController extends Controller
                 ->queryOne();
             var_dump($user);
             }
-    
+            
+            //query builder
             public function actionTestDb4() {
                 //generates "SELECT id, name, email FROM user WHERE name = 'User10';"
                 // $user = (new \yii\db\Query())
@@ -602,12 +603,28 @@ class SiteController extends Controller
                 //    ->all();
                 // var_dump($user);
             
-                            $users = (new \yii\db\Query())
+                // $users = (new \yii\db\Query())
+                // ->select(['id', 'name', 'email'])
+                // ->from('user')
+                // ->orderBy('name DESC')
+                // ->all();
+                // var_dump($users);
+
+                // $user = (new \yii\db\Query())
+                // ->select(['id', 'name', 'email'])
+                // ->from('user')
+                // ->where(['name' => 'User10'])
+                // ->one();
+                // var_dump($user);
+
+                $users = (new \yii\db\Query())
                 ->select(['id', 'name', 'email'])
                 ->from('user')
-                ->orderBy('name DESC')
+                ->limit(5)
+                ->offset(5)
                 ->all();
-            var_dump($users);
+                var_dump($users);
+        }
 
-            }
+
 }
