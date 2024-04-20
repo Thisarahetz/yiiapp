@@ -19,6 +19,9 @@ use yii\widgets\ActiveForm;
 use yii\data\Pagination;
 use yii\data\Sort;
 use app\components\Taxi;
+use yii\data\ActiveDataProvider;
+use yii\data\SqlDataProvider;
+use yii\data\ArrayDataProvider;
 
 class SiteController extends Controller
 {
@@ -409,5 +412,55 @@ class SiteController extends Controller
     }
         
 
+    //data provider
+    public function actionDataProvider(){
+        $query = User::find();
+        $provider = new ActiveDataProvider([
+            'query' => $query,
+            'pagination' => [
+            'pageSize' => 2,
+        ],
+        ]);
+        // returns an array of users objects
+        $users = $provider->getModels();
+        var_dump($users);
+    }
 
+    public function actionSqlDataProvider() {
+        $count = Yii::$app->db->createCommand('SELECT COUNT(*) FROM user')->queryScalar();
+        $provider = new SqlDataProvider([
+           'sql' => 'SELECT * FROM user',
+            'totalCount' => $count,
+            'pagination' => [
+                'pageSize' => 5,
+            ],
+            'sort' => [
+                'attributes' => [
+                'id',
+                'name',
+                'email',
+            ],
+        ],
+        ]);
+        // returns an array of data rows
+        $users = $provider->getModels();
+        var_dump($users);
+    }
+
+    //array data provider
+    public function actionArrayDataProvider() {
+        $data = User::find()->asArray()->all();
+        $provider = new ArrayDataProvider([
+        'allModels' => $data,
+        'pagination' => [
+            'pageSize' => 3,
+        ],
+        'sort' => [
+            'attributes' => ['id', 'name'],
+        ],
+    ]);
+   // get the rows in the currently requested page
+    $users = $provider->getModels();
+    var_dump($users);
+    }
 }
