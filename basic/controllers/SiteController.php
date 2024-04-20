@@ -18,6 +18,7 @@ use yii\web\UploadedFile;
 use yii\widgets\ActiveForm;
 use yii\data\Pagination;
 use yii\data\Sort;
+use app\components\Taxi;
 
 class SiteController extends Controller
 {
@@ -394,9 +395,19 @@ class SiteController extends Controller
                     'sort' => $sort,
                 ]);
             
-            }
+    }
 
-            
+
+    public function actionProperties() {
+        $object = new Taxi();
+        // equivalent to $phone = $object->getPhone();
+        $phone = $object->phone;
+        var_dump($phone);
+        // equivalent to $object->setLabel('abc');
+        $object->phone = '79005448877';
+        var_dump($object);
+    }
+        
 
 
 }
