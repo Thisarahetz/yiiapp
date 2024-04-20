@@ -467,9 +467,14 @@ class SiteController extends Controller
 
     ///widgets
     public function actionDataWidget() {
-        $model = User::find()->one();
+        $dataProvider = new ActiveDataProvider([
+            'query' => User::find(),
+            'pagination' => [
+                'pageSize' => 10,
+            ],
+        ]);
         return $this->render('datawidget', [
-            'model' => $model
+            'dataProvider' => $dataProvider
         ]);
     }
 }
