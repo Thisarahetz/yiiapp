@@ -673,4 +673,32 @@ class SiteController extends Controller
                     echo "deleted";
                 } 
         }
+
+        public function actionTestCache() {
+            $cache = Yii::$app->cache;
+            // try retrieving $data from cache
+            $data = $cache->get("my_cached_data");
+            if ($data === false) {
+               // $data is not found in cache, calculate it from scratch
+                $data = date("d.m.Y H:i:s");
+               // store $data in cache so that it can be retrieved next time
+                $cache->set("my_cached_data", $data, 30);
+            }
+            // $data is available here
+            var_dump($data);
+            }
+
+            public function actionQueryCaching() {
+                $duration = 10;
+                $result = User::getDb()->cache(function ($db) {
+                    return User::find()->count();
+                }, $duration);
+                var_dump($result);
+                $user = new User();
+                $user->name = "cached user name";
+                $user->email = "cacheduseremail@gmail.com";
+                $user->save();
+                echo "==========";
+                var_dump(User::find()->count());
+            }
 }
