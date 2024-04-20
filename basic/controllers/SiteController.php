@@ -23,6 +23,7 @@ use yii\data\ActiveDataProvider;
 use yii\data\SqlDataProvider;
 use yii\data\ArrayDataProvider;
 
+
 class SiteController extends Controller
 {
     // public $layout = "newlayout";
@@ -476,5 +477,15 @@ class SiteController extends Controller
         return $this->render('datawidget', [
             'dataProvider' => $dataProvider
         ]);
+    }
+
+    //actionTestEvent
+    public function actionTestEvent() {
+        $model = new User();
+        $model->name = "John";
+        $model->email = "john@gmail.com";
+        if($model->save()) {
+            $model->trigger(User::EVENT_NEW_USER);
+        }
     }
 }
