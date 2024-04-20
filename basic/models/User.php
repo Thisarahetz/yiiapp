@@ -17,12 +17,27 @@ class User extends \yii\db\ActiveRecord
 {
     const EVENT_NEW_USER = 'new-user';
 
+    public function fields() {
+        return [
+        'id',
+        'name',
+           //PHP callback
+        'datetime' => function($model) {
+            return date("d:m:Y H:i:s");
+        }
+        ];
+    }
+
+    public function extraFields() {
+        return ['email'];
+    }
+
     public function behaviors() {
         return [
             // anonymous behavior, behavior class name only
             UppercaseBehavior::className(),
         ];
-     }
+    }
 
     public function init() {
         $this->on(self::EVENT_NEW_USER, [$this, 'sendMailToAdmin']);
