@@ -296,6 +296,44 @@ class SiteController extends Controller
             $session->setFlash('greeting', 'Hello user!');
             return $this->render('showflash');
         }
+
+        // actionReadCookies
+        public function actionReadCookies() { 
+            // get cookies from the "request" component 
+            $cookies = Yii::$app->request->cookies; 
+            // get the "language" cookie value 
+            // if the cookie does not exist, return "ru" as the default value 
+            $language = $cookies->getValue('language', 'ru'); 
+            // an alternative way of getting the "language" cookie value 
+            if (($cookie = $cookies->get('language')) !== null) { 
+                $language = $cookie->value; 
+            } 
+            // you may also use $cookies like an array 
+            if (isset($cookies['language'])) { 
+                $language = $cookies['language']->value; 
+            } 
+            // check if there is a "language" cookie 
+            if ($cookies->has('language')) echo "Current language: $language"; 
+        }
         
+
+        //send cookies
+        public function actionSendCookies() { 
+            // get cookies from the "response" component 
+            $cookies = Yii::$app->response->cookies; 
+            // add a new cookie to the response to be sent 
+            $cookies->add(new \yii\web\Cookie([ 
+                'name' => 'language', 
+                'value' => 'ru-RU', 
+            ])); 
+            $cookies->add(new \yii\web\Cookie([
+                'name' => 'username', 
+                'value' => 'John', 
+            ])); 
+            $cookies->add(new \yii\web\Cookie([ 
+                'name' => 'country', 
+                'value' => 'USA', 
+            ])); 
+            } 
 
 }
