@@ -17,6 +17,7 @@ use yii\base\DynamicModel;
 use yii\web\UploadedFile;
 use yii\widgets\ActiveForm;
 use yii\data\Pagination;
+use yii\data\Sort;
 
 class SiteController extends Controller
 {
@@ -377,6 +378,25 @@ class SiteController extends Controller
                 'pagination' => $pagination,
                 ]);
             }
+
+
+            public function actionSorting() {
+                //declaring the sort object
+                $sort = new Sort([
+                    'attributes' => ['id', 'name', 'email'], 
+                ]);
+                //retrieving all users
+                $models = User::find()
+                    ->orderBy($sort->orders)
+                    ->all();
+                return $this->render('sorting', [
+                    'models' => $models,
+                    'sort' => $sort,
+                ]);
+            
+            }
+
+            
 
 
 }
