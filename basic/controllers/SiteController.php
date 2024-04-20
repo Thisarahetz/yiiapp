@@ -485,7 +485,38 @@ class SiteController extends Controller
         $model->name = "John";
         $model->email = "john@gmail.com";
         if($model->save()) {
-            $model->trigger(User::EVENT_NEW_USER);
+            $model->trigger(MyUser::EVENT_NEW_USER);
         }
     }
+
+    public function actionTestBehavior() {
+        //creating a new user
+        $model = new User();
+        $model->name = "John";
+        $model->email = "john@gmail.com";
+        if($model->save()){
+            var_dump(User::find()->asArray()->all());
+        }
+    }
+
+
+
+    /**
+     * This method is responsible for handling the test interface action.
+     *
+     * @return void
+     */
+    public function actionTestInterface() {
+        // Method implementation goes here
+        $container = new \yii\di\Container();
+        $container->set
+        ("\app\components\MyInterface","\app\components\First");
+        $obj = $container->get("\app\components\MyInterface");
+        $obj->test(); // print "First class"
+        $container->set
+                    ("\app\components\MyInterface","\app\components\Second");
+        $obj = $container->get("\app\components\MyInterface");
+        $obj->test(); // print "Second class"
+    }
+        
 }

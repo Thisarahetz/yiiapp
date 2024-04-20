@@ -3,6 +3,8 @@
 namespace app\models;
 
 use Yii;
+use app\components\UppercaseBehavior;
+
 
 /**
  * This is the model class for table "user".
@@ -14,6 +16,14 @@ use Yii;
 class User extends \yii\db\ActiveRecord
 {
     const EVENT_NEW_USER = 'new-user';
+
+    public function behaviors() {
+        return [
+            // anonymous behavior, behavior class name only
+            UppercaseBehavior::className(),
+        ];
+     }
+
     public function init() {
         $this->on(self::EVENT_NEW_USER, [$this, 'sendMailToAdmin']);
     }
