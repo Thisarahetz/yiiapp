@@ -14,7 +14,7 @@ $config = [
     'components' => [
         'assetManager' => [
             'appendTimestamp' => true,
-         ],
+        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'kpZvUFP35yizLVij7cjKnCrrAkSudNKg',
@@ -62,6 +62,19 @@ $config = [
             ],
         ],
         */
+        'view' => [
+        'theme' => [
+            'basePath' => '@app/themes/basic',
+            'baseUrl' => '@web/themes/basic',
+            'pathMap' => [
+                '@app/views' => [
+                    '@app/themes/christmas',
+                    '@app/themes/basic',
+                ],
+            ]
+        ],
+    ],
+  
     ],
     'modules' => [
         'hello' => [
