@@ -304,8 +304,8 @@ class SiteController extends Controller
         public function actionShowFlash() {
             $session = Yii::$app->session;
             // set a flash message named as "greeting"
-            $session->setFlash('greeting', 'Hello user!');
-            return $this->render('showflash');
+                $session->setFlash('greeting', 'Hello user!');
+                return $this->render('showflash');
         }
 
         // actionReadCookies
@@ -592,9 +592,22 @@ class SiteController extends Controller
                 ->queryOne();
             var_dump($user);
             }
-        
+    
+            public function actionTestDb4() {
+                //generates "SELECT id, name, email FROM user WHERE name = 'User10';"
+                // $user = (new \yii\db\Query())
+                //    ->select(['id', 'name', 'email'])
+                //    ->from('user')
+                //    ->where(['name' => 'User10'])
+                //    ->all();
+                // var_dump($user);
+            
+                            $users = (new \yii\db\Query())
+                ->select(['id', 'name', 'email'])
+                ->from('user')
+                ->orderBy('name DESC')
+                ->all();
+            var_dump($users);
 
-        
-
-        
+            }
 }
