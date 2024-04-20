@@ -351,6 +351,11 @@ class SiteController extends Controller
                 }
             }
             return $this->render('upload', ['model' => $model]);
-            }
+        }
+
+        //formatting
+        public function actionFormatter(){
+            return $this->render('formatter');
+         }
 
 }
