@@ -215,32 +215,78 @@ class SiteController extends Controller
          }
 
 
-         public function actionMaintenance() {
+        public function actionMaintenance() {
             echo "<h1>Maintenance</h1>";
-         }
+        }
 
-         public function actionRoutes() {
+        public function actionRoutes() {
             return $this->render('routes');
+        }
+
+        public function actionRegistration() {
+            // $mRegistration = new RegistrationForm();
+            // return $this->render('registration', ['model' => $mRegistration]);
+            $model = new RegistrationForm(); 
+            if (Yii::$app->request->isAjax && $model->load(Yii::$app->request>post())) { 
+                Yii::$app->response->format = Response::FORMAT_JSON; 
+                return ActiveForm::validate($model); 
+            } 
+            return $this->render('registration', ['model' => $model]);
+                    }
+
+        public function actionAdHocValidation() {
+                $model = DynamicModel::validateData([
+                'username' => 'John',
+                'email' => 'john@gmail.com'
+                ], [
+                [['username', 'email'], 'string', 'max' => 12],
+                ['email', 'email'],
+                ]);
+                
+                if ($model->hasErrors()) {
+                var_dump($model->errors);
+                } else {
+                echo "success";
+                }
+        }
+
+
+        //session
+        public function actionOpenAndCloseSession() {
+            $session = Yii::$app->session;
+            // open a session
+            $session->open();
+            // check if a session is already opened
+            if ($session->isActive) echo "session is active";
+            // close a session
+            $session->close();
+            // destroys all data registered to a session
+            $session->destroy();
+        }
+
+
+        public function actionAccessSession() {
+
+                $session = Yii::$app->session;
+                
+                // set a session variable
+                $session->set('language', 'ru-RU');
+                
+                // get a session variable
+                $language = $session->get('language');
+                var_dump($language);
+                    
+                // remove a session variable
+                $session->remove('language');
+                    
+                // check if a session variable exists
+                if (!$session->has('language')) echo "language is not set";
+                    
+                $session['captcha'] = [
+                'value' => 'aSBS23',
+                'lifetime' => 7200,
+                ];
+                var_dump($session['captcha']);
          }
 
-         public function actionRegistration() {
-            $mRegistration = new RegistrationForm();
-            return $this->render('registration', ['model' => $mRegistration]);
-         }
-
-         public function actionAdHocValidation() {
-            $model = DynamicModel::validateData([
-               'username' => 'John',
-               'email' => 'john@gmail.com'
-            ], [
-               [['username', 'email'], 'string', 'max' => 12],
-               ['email', 'email'],
-            ]);
-             
-            if ($model->hasErrors()) {
-               var_dump($model->errors);
-            } else {
-               echo "success";
-            }
-         }
 }
