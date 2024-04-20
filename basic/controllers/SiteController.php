@@ -10,8 +10,11 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\RegistrationForm;
+use app\models\UploadImageForm;
 use yii\web\View;
 use yii\base\DynamicModel;
+use yii\web\UploadedFile;
+use yii\widgets\ActiveForm;
 
 class SiteController extends Controller
 {
@@ -335,5 +338,19 @@ class SiteController extends Controller
                 'value' => 'USA', 
             ])); 
             } 
+
+        //upload image
+        public function actionUploadImage() {
+            $model = new UploadImageForm();
+            if (Yii::$app->request->isPost) {
+                $model->image = UploadedFile::getInstance($model, 'image');
+                if ($model->upload()) {
+                  // file is uploaded successfully
+                    echo "File successfully uploaded";
+                    return;
+                }
+            }
+            return $this->render('upload', ['model' => $model]);
+            }
 
 }
