@@ -12,9 +12,6 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
-        'assetManager' => [
-            'appendTimestamp' => true,
-        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'kpZvUFP35yizLVij7cjKnCrrAkSudNKg',
@@ -44,15 +41,19 @@ $config = [
                 ],
             ],
         ],
-        // 'urlManager' => [ 
-        //     'showScriptName' => false, 
-        //     'enablePrettyUrl' => true ,
-        //     'enableStrictParsing' => true,
-        //     'suffix' => '.html',
-        //     'rules' => [
-        //         'about' => 'site/about',
-        //      ],
-        //  ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'enableStrictParsing' => true,
+            'showScriptName' => false,
+            'rules' => [
+            ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+            ],
+        ],
+        // 'request' => [
+        //     'parsers' => [
+        //     'application/json' => 'yii\web\JsonParser',
+        //     ]
+        // ],
         'db' => $db,
         /*
         'urlManager' => [
@@ -62,27 +63,13 @@ $config = [
             ],
         ],
         */
-        'view' => [
-        'theme' => [
-            'basePath' => '@app/themes/basic',
-            'baseUrl' => '@web/themes/basic',
-            'pathMap' => [
-                '@app/views' => [
-                    '@app/themes/christmas',
-                    '@app/themes/basic',
-                ],
-            ]
-        ],
-    ],
-  
     ],
     'modules' => [
         'hello' => [
         'class' => 'app\modules\hello\Hello', 
         ],
     ],
-    'defaultRoute' => 'site/contact',
-    // 'catchAll' => ['site/maintenance'],
+    // 'defaultRoute' => 'example',
     'params' => $params,
 ];
 
