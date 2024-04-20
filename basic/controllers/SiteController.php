@@ -11,6 +11,7 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\RegistrationForm;
 use yii\web\View;
+use yii\base\DynamicModel;
 
 class SiteController extends Controller
 {
@@ -225,5 +226,21 @@ class SiteController extends Controller
          public function actionRegistration() {
             $mRegistration = new RegistrationForm();
             return $this->render('registration', ['model' => $mRegistration]);
+         }
+
+         public function actionAdHocValidation() {
+            $model = DynamicModel::validateData([
+               'username' => 'John',
+               'email' => 'john@gmail.com'
+            ], [
+               [['username', 'email'], 'string', 'max' => 12],
+               ['email', 'email'],
+            ]);
+             
+            if ($model->hasErrors()) {
+               var_dump($model->errors);
+            } else {
+               echo "success";
+            }
          }
 }
