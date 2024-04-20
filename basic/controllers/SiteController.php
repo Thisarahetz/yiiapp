@@ -50,6 +50,14 @@ class SiteController extends Controller
                     'logout' => ['post'],
                 ],
             ],
+            [
+                'class' => 'yii\filters\PageCache',
+                'only' => ['index'],
+                'lastModified' => function ($action, $params) {
+                    $q = new \yii\db\Query();
+                    return $q->from('news')->max('created_at');
+                },
+            ],
         ];
     }
 
@@ -701,4 +709,13 @@ class SiteController extends Controller
                 echo "==========";
                 var_dump(User::find()->count());
             }
+
+            public function actionFragmentCaching() {
+                $user = new User();
+                $user->name = "cached user name";
+                $user->email = "cacheduseremail@gmail.com";
+                $user->save();
+                $models = User::find()->all();
+                return $this->render('cachedview', ['models' => $models]);
+             }
 }
