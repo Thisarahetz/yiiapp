@@ -33,14 +33,17 @@ $config = [
             'useFileTransport' => true,
         ],
         'log' => [
+            'flushInterval' => 1,
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
-                [
-                    'class' => 'yii\log\FileTarget',
-                    'levels' => ['error', 'warning'],
-                ],
+               [
+                  'class' => 'yii\log\FileTarget',
+                  'exportInterval' => 1,
+                  'logVars' => []
+               ],
             ],
-        ],
+         ],
+           
         // 'urlManager' => [
         //     'enablePrettyUrl' => true,
         //     'enableStrictParsing' => true,
@@ -69,7 +72,7 @@ $config = [
         'class' => 'app\modules\hello\Hello', 
         ],
     ],
-    // 'defaultRoute' => 'example',
+    'defaultRoute' => 'example',
     'params' => $params,
 ];
 

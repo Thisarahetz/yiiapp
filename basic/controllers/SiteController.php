@@ -50,14 +50,14 @@ class SiteController extends Controller
                     'logout' => ['post'],
                 ],
             ],
-            [
-                'class' => 'yii\filters\PageCache',
-                'only' => ['index'],
-                'lastModified' => function ($action, $params) {
-                    $q = new \yii\db\Query();
-                    return $q->from('news')->max('created_at');
-                },
-            ],
+            // [
+            //     'class' => 'yii\filters\PageCache',
+            //     'only' => ['index'],
+            //     'lastModified' => function ($action, $params) {
+            //         $q = new \yii\db\Query();
+            //         return $q->from('news')->max('created_at');
+            //     },
+            // ],
         ];
     }
 
@@ -717,5 +717,13 @@ class SiteController extends Controller
                 $user->save();
                 $models = User::find()->all();
                 return $this->render('cachedview', ['models' => $models]);
-             }
+            }
+
+
+            public function actionLog() {
+                Yii::trace('trace log message');
+                Yii::info('info log message');
+                Yii::warning('warning log message');
+                Yii::error('error log message');
+            }
 }
