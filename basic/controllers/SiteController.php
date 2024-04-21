@@ -22,6 +22,8 @@ use app\components\Taxi;
 use yii\data\ActiveDataProvider;
 use yii\data\SqlDataProvider;
 use yii\data\ArrayDataProvider;
+use yii\web\NotFoundHttpException;
+
 
 
 class SiteController extends Controller
@@ -725,5 +727,16 @@ class SiteController extends Controller
                 Yii::info('info log message');
                 Yii::warning('warning log message');
                 Yii::error('error log message');
+            }
+
+
+            public function actionShowError() {
+                // try {
+                //     5/0;
+                // } catch (ErrorException $e) {
+                //     Yii::warning("Ooops...division by zero.");
+                // }
+                // execution continues...
+                throw new NotFoundHttpException("Something unexpected happened");
             }
 }
