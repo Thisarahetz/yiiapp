@@ -81,6 +81,7 @@ $config = [
         'hello' => [
         'class' => 'app\modules\hello\Hello', 
         ],
+        'admin' => [ 'class' => 'app\modules\admin\module', ], 
     ],
     'defaultRoute' => 'example',
     'params' => $params,
