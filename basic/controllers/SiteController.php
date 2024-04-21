@@ -764,8 +764,11 @@ class SiteController extends Controller
                 Yii::$app->user->logout();
                 // whether the current user is a guest (not authenticated)
                 var_dump(Yii::$app->user->isGuest);
-
             }
 
+            public function actionTranslation() {
+                // echo \Yii::$app->language= 'ru-RU';
+                echo \Yii::t('app', 'translate');
+            }
             
 }

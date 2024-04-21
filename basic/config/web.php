@@ -19,6 +19,16 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'i18n' => [
+            'translations' => [
+               'app*' => [
+                'class' => 'yii\i18n\PhpMessageSource',
+                'fileMap' => [
+                    'app' => 'app.php'
+                ],
+            ],
+            ],
+        ],
         'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
