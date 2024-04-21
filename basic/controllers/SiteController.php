@@ -729,7 +729,7 @@ class SiteController extends Controller
                 Yii::error('error log message');
             }
 
-
+            //exception
             public function actionShowError() {
                 // try {
                 //     5/0;
@@ -739,4 +739,33 @@ class SiteController extends Controller
                 // execution continues...
                 throw new NotFoundHttpException("Something unexpected happened");
             }
+
+            //auth
+            public function actionAuth(){
+                // // the current user identity. Null if the user is not authenticated.
+                // $identity = Yii::$app->user->identity;
+                // var_dump($identity);
+                // // the ID of the current user. Null if the user not authenticated.
+                // $id = Yii::$app->user->id;
+                // var_dump($id);
+                // // whether the current user is a guest (not authenticated)
+                // $isGuest = Yii::$app->user->isGuest;
+                // var_dump($isGuest);
+
+                   // whether the current user is a guest (not authenticated)
+                var_dump(Yii::$app->user->isGuest);
+                // find a user identity with the specified username.
+                // note that you may want to check the password if needed
+                $identity = User::findByUsername("admin");
+                // logs in the user
+                Yii::$app->user->login($identity);
+                // whether the current user is a guest (not authenticated)
+                var_dump(Yii::$app->user->isGuest);
+                Yii::$app->user->logout();
+                // whether the current user is a guest (not authenticated)
+                var_dump(Yii::$app->user->isGuest);
+
+            }
+
+            
 }
